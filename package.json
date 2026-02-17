@@ -1,0 +1,40 @@
+{
+  "name": "@ktmcp-cli/climatecom",
+  "version": "1.0.0",
+  "description": "Production-ready CLI for Climate FieldView agricultural platform API",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "climatecom": "bin/climatecom.js"
+  },
+  "keywords": [
+    "climate",
+    "fieldview",
+    "agriculture",
+    "farming",
+    "precision-ag",
+    "cli",
+    "api",
+    "ktmcp"
+  ],
+  "author": "KTMCP",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "axios": "^1.6.7",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "conf": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktmcp-cli/climatecom.git"
+  },
+  "homepage": "https://killthemcp.com/climatecom-cli",
+  "bugs": {
+    "url": "https://github.com/ktmcp-cli/climatecom/issues"
+  }
+}
